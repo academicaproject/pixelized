@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>New Game Collection</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Images/icon.png">
+        <link rel="stylesheet" href="css/filter.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/sheet.css">
+
+    </head>
+
+    <body>
+
+        <!--NAVBAR-->
+
+        <div id="navbar">
+
+            <div class="logo">
+
+                <img alt="Pixelized books logo" src="Images/icon.png">
+
+                <h1>Pixelized</h1>
+
+            </div>
+
+            <div id="navLinks">
+
+                <img class="home" id="active" src="Images/home.png" alt="home">
+
+                <img src="Images/gallery.png" alt="gallery" class="gallery">
+
+                <img class="review" src="Images/review.png" alt="review">
+
+            </div>
+
+        </div>
+
+
+        <div class="sheet">
+
+            <div class="sheetHeader">
+
+                <p>Reviews</p>
+                <button id="closingButton">x</button>
+
+            </div>
+
+            <hr>
+
+            <div id="reviews"></div>
+
+        </div>
+
+        <!--Main-->
+
+        <div id="main">
+
+            <div class="head">
+
+                <div class="headText">
+
+                    <img src="Images/gamepad.png" alt="gamepad">
+
+                    <h1 class="title">New Game Collection</h1>
+
+                    <p class="description">We are bringing classics back to life, one pixel at a time.</p>
+                    
+                </div>
+
+                <div id="filters">
+
+                     <div class="changeBox" id="freeGame">
+                        <h3>Wanna check out free games?</h3>
+
+                        <div>
+
+                            <button id="yes">Yes!</button>
+                            <button id="all">See All!</button>
+
+                        </div>
+
+                        <img src="Images/arrow.png" id="swipe">
+
+                     </div>
+
+                    <div id="searchAndFilters">
+
+                        <input type="search" placeholder="search for games..." id="searchInput">
+
+                        <div class="sortBox">
+
+                            <img src="Images/sortAscendingPrice.png" id="sortAscendingPrice">
+                            <img src="Images/sortDescendingPrice.png" id="sortDescendingPrice">
+                            <img src="Images/sortAToZ.png" id="sortAToZ">
+                            <img src="Images/sortZToA.png" id="sortZToA">
+
+                            <img src="Images/arrow.png" id="swiped">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div id="cardContainer">
+
+            </div>
+
+        </div>
+
+        <div id="containerGallery">
+
+            <h1 class="title">Check out gallery of screenshots!</h1>
+            <div id="photoBox"></div>
+        </div>
+
+        <div>
+            <hr>
+            <p class="footer">Made By Experimental Sources</p>
+        </div>
+
+        <script src="js/navbar.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/gallery.js"></script>
+        <script src="js/filter.js"></script>
+        <script src="js/sheet.js"></script>
+
+    </body>
+
+</html>

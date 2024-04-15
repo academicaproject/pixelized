@@ -1,0 +1,57 @@
+#navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: start;
+    background-color: #223;
+    padding: 10px 10% 0 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+#navLinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+
+#navLinks img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#navLinks img:hover {
+    background-color: #112;
+    transition: 0.4s;
+}
+
+#active {
+    background-color: #112;
+    transition: 0.4s;
+}
+
+.hoverImage {
+    background-color: #223 !important;
+    transition: 0.4s;
+}
+
+@media (max-width: 650px) {
+
+    .logo h1 {
+        display: none;
+    }
+
+}

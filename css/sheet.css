@@ -1,0 +1,71 @@
+.sheet {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100vh;
+    background-color: #112;
+    border-left: 3px solid #223;
+    z-index: 20;
+    translate: 100% 0px;
+    transition: 0.4s;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.sheet::-webkit-scrollbar {
+    width: 15px;
+}
+
+.sheet::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+.sheet::-webkit-scrollbar-thumb {
+    background: #334;
+}
+
+.sheet::-webkit-scrollbar-thumb:hover {
+    background: #334;
+}
+
+.sheetOpen {
+    translate: 0 0px !important;
+    transition: 0.4s;
+}
+
+.sheetHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sheetHeader p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#closingButton {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #112;
+    border: none;
+    border-radius: 3px;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+#closingButton:hover {
+    color: #112;
+    background-color: white;
+    transition: 0.4s;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+#reviews p {
+    font-size: 11px;
+    margin: 10px 0;
+}
